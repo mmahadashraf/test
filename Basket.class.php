@@ -20,7 +20,7 @@ class Basket{
 	$this->minDeliveryRuleRate = 4.95;  
         $this->maxDeliveryRuleTotal = 90;
 	$this->maxDeliveryRuleRate = 2.95;   
-	$this->shippingCost = 0;
+	$this->shippingCost = 0;	//for convenience in invoice display
 	$this->productsListTotal = 0;
         $this->productsList = $this->catalog = [	//assocaitive array created for convenience in invoice display
         	'R01' => 0,
